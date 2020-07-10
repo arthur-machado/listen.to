@@ -14,3 +14,10 @@ npm install
 ```
 
 E aí ele instala todas as dependências que tão dentro do package.json 
+
+Pra rodar e ver se tá funcionando, digitar:
+```
+npm start
+```
+
+No navegador, acessa [http://localhost:3000](http://localhost:3000) e um "Welcome to express" deve aparecer
