@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Quicksand:wght@700&display=swap');
+a {
+    font-family: 'Allerta Stencil', sans-serif;
+   
+    color: #000000;        
+}
+  
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar{
+    background: #FFFFFF;
+    box-shadow: inset 0px -10px 20px rgba(122, 121, 121, 0.25);
+}
+
+body{
+    background-image: url('static/img/girlListen.png') ;
+    background-size: 100%;
+}
+
+#frontText{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    letter-spacing: -0.02em;
+    padding-top: 60px;
+    
+}
+
+p #frontText{
+   
+    
+    
+}
