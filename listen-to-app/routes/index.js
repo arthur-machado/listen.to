@@ -20,6 +20,8 @@ router.get('/feed', function(req, res, next) {
 });
 
 /* Spotify login */
+
+/*
 router.get('/login', (req, res) => {
   var redirect_uri = 'http://localhost:3000/feed'
   res.redirect('https://accounts.spotify.com/authorize' +
@@ -29,7 +31,7 @@ router.get('/login', (req, res) => {
   '&redirect_uri=' + encodeURIComponent(redirect_uri)) +
   '&show_dialog=true';
 })
-
+*/
 
 
 
