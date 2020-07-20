@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "fonte_listen_to";
+  src: url("/fonts/allerta-stencil-regular-webfont.woff2") format("woff2"),
+    url("allerta-stencil-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  height: 6%;
+  left: 0px;
+  top: 0px;
+  background-color: white;
+  box-shadow: inset 0px -10px 20px rgba(192, 192, 192, 0.25);
+}
+#menu_button {
+  display: inline;
+}
+
+#nav #menu_button{
+  display: grid;
+}
+
+#foto_perfil {
+  width: 7%;
+  height: 60%;
+  border-radius: 50%;
+  margin-left: 30%;
+  margin-bottom: 2.5%;
+}
+
+#nav_title {
+  font-family: fonte_listen_to;
+  margin-top: 10%;
+  margin-left: 40%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 250%;
+  color: #000000;
+}
+
+/* ///fazendo o botão lateral (hamburguer)///// */
+body {
+  margin: 0;
+  padding: 0;
+  /* make it look decent enough */
+  background: #232323;
+  color: #000000;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  overflow-x: hidden;
+  /* needed because hiding the menu on the right side is not perfect,  */
+}
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+/* a:hover {
+  color: tomato; */
+#sanduiche {
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 4.5%;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#sanduiche input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+/*
+* Just a quick hamburger
+*/
+#sanduiche span {
+  display: block;
+  width: 39px;
+  height: 5px;
+  margin-bottom: 7px;
+  position: relative;
+  background: #000000;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 1px 0px;
+  transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+#sanduiche span:first-child {
+  transform-origin: 0% 0%;
+}
+#sanduiche span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+/*
+* Transform all the slices of hamburger
+* into a crossmark.
+*/
+#sanduiche input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #000000;
+}
+/*
+* But let's hide the middle one.
+*/
+#sanduiche input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+/*
+* Ohyeah and the last one should go the other direction
+*/
+#sanduiche input:checked ~ span:nth-last-child(2) {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+/*
+* Make this absolute positioned
+* at the top left of the screen
+*/
+#dropdown {
+  background-color: #ffffff;
+  position: absolute;
+  width: 280px;
+  height: 406px;
+  left: 44px;
+  top: 30px;
+
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+  /* font-weight: 900; */
+  /* margin-top: 13px; */
+  list-style-type: none;
+  /* -webkit-font-smoothing: antialiased; */
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  transition: transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transform: none;
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+#dropdown li {
+  width: 113%;
+  font-size: 25px;
+  display: block;
+  color: #000000;
+  float: left;
+  text-align: left;
+  margin-left: -30px;
+  border-bottom: 1px solid;
+  padding: 32px;
+}
+
+/*
+* And let's fade it in from the left
+*/
+#sanduiche input:checked ~ ul {
+  transform: none;
+  opacity: 1;
+}
+.icon_menu {
+  margin-left: 2%;
+}
