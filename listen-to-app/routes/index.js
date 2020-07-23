@@ -4,11 +4,6 @@ var SpotifyWebApi = require('spotify-web-api-node');
 
 scopes = ['user-read-private', 'user-read-email','playlist-modify-public','playlist-modify-private'];
 
-var spotifyApi = new SpotifyWebApi({
-  clientId: process.env.SPOTIFY_API_ID,
-  clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
-  redirectUri: process.env.CALLBACK_URL,
-});
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
