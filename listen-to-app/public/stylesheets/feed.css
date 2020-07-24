@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body{
+    background: #E1E1E1;
+    align-items: center;
+}
+
+/*coluna de posts */
+.col-xs{
+   width: 60%; 
+   align-items: center;
+}
+
+/* cada post fica em um card*/
+.card{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    position: relative;
+    left: 43%;
+    background: #E1E1E1;
+    
+    width: 460px;
+}
+
+/* informações do usuário */
+#userPhoto{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+#username{
+    display: inline;
+    position: relative;
+    top: -12px;
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#timestamp{
+    display: flex;
+    position: relative;
+    left: 73px;
+    top: -30px;
+    padding-left: 8px;
+}
+
+/* iframe com a musica do spotify */
+ iframe{
+    min-width: 317px;
+    min-height: 397px;
+    display: inline;
+    position: relative;
+    left: 19%;
+    top: -10px;
+ 
+}
+
+
+
+/*Configurações do side buttons */
+#sideButtons, img, a{
+    width: 43px;
+    height: 43px;
+    position: relative;
+    left: -10px;
+    
+    
+}
+
+#actionBtn{
+    
+}
+
+a{
+   
+}
+
+#sideButtons, ul{
+    width: 45px;
+    height: 361px;
+    display: grid;
+    top: -380px;
+    
+}
