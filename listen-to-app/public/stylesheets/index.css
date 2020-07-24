@@ -4,7 +4,7 @@
 
 body, .background{
     background-size: 100%;
-    background-image: url('/images/girlListen2.png') ;
+    background-image: url('/images/guitar.jpg') ;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ a:hover{
     
     
 }
-
+/*Animação para o texto*/
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-12%);
