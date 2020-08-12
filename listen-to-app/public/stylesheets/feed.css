@@ -3,29 +3,34 @@
 body{
     background: #E1E1E1;
     align-items: center;
+    margin: 0;
+    max-height: 100%;
+
 }
 
 /*coluna de posts */
 .col-xs{
-   width: 60%; 
-   align-items: center;
+    width: 392px; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-body{
+    height: 512px;
 }
 
 /* cada post fica em um card*/
 .card{
     font-family: 'Mulish', sans-serif;
-    display: flex;
-    position: relative;
-    left: 43%;
     background: #E1E1E1;
-    
-    width: 460px;
+    height: 50%;
 }
 
 /* informações do usuário */
 #userPhoto{
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
     border-radius: 50%;
 }
 
@@ -33,6 +38,7 @@ body{
     display: inline;
     position: relative;
     top: -12px;
+    left: -17px;
     padding: 8px;
     font-weight: bolder;
     font-size: 20px;
@@ -41,41 +47,32 @@ body{
 #timestamp{
     display: flex;
     position: relative;
-    left: 73px;
+    left: 43px;
     top: -30px;
     padding-left: 8px;
 }
 
 /* iframe com a musica do spotify */
  iframe{
-    min-width: 317px;
-    min-height: 397px;
-    display: inline;
+    width: 307px;
+    height: 387px;
     position: relative;
-    left: 19%;
-    top: -10px;
- 
+    left: 12%;
+    top: -16px;
 }
 
 
 
 /*Configurações do side buttons */
 #sideButtons, img, a{
-    width: 43px;
-    height: 43px;
+    width: 36px;
+    height: 36px;
     position: relative;
-    left: -10px;
+    left: -15px;
     
     
 }
 
-#actionBtn{
-    
-}
-
-a{
-   
-}
 
 #sideButtons, ul{
     width: 45px;

@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 /* Página de feed */
 
 router.get('/feed', function(req, res, next) {
-  res.render('feed', { title: 'Listen.to'});
+  res.render('feed', { title: 'Listen.to' });
 });
 
 
