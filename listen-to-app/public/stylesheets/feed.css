@@ -9,10 +9,10 @@ body {
 
 /*coluna de posts */
 .col-xs {
-  min-width: 347px;
+  min-width: 354px;
   max-width: 380px;
   align-items: center;
-  
+  margin-left: 34%;
 }
 
 .card-body {
@@ -84,4 +84,10 @@ img {
   height: 361px;
   display: grid;
   top: -380px;
+}
+
+@media screen and (max-width: 988px){
+  .col-xs{
+    margin-left: 6.5%;
+  }
 }
