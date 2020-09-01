@@ -20,6 +20,12 @@ router.get("/feed", function (req, res, next) {
   });
 });
 
+router.get("/profile", function (req, res, next) {
+  res.render("profile", {
+    title: "Listen.to - configurações",
+  });
+});
+
 /* Spotify login */
 router.get("/login", function (req, res, next) {
   res.redirect("http://localhost:8888/login"); //redireciona para o servidor de autenticação

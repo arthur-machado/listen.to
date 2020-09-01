@@ -1,0 +1,44 @@
+body {
+    align-items: center;
+    margin: 0;
+    max-height: 100%;
+    background: #e1e1e1;
+}
+
+.col-lg{
+    width: 100%;
+    height: 100%;
+  }
+
+
+#bkg-prof{
+    width: 100%;
+    height: 225px;
+}
+
+#user-photo{
+    width: 174px;
+    height: 174px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+}
+
+#prof-picture{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+
+
+@media screen and (max-width: 988px){
+    .col-lg{
+        
+
+    }
+
+    #bkg-prof{
+        width: 100%;
+        height: 205px;
+    }
+  }
