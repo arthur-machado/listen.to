@@ -1,124 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Quicksand:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Quicksand:wght@700&display=swap");
 
-
-
-body, .background{
-    background-size: 100%;
-    background-image: url('/images/guitar.jpg') ;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    
+body,
+.background {
+  background-size: 100%;
+  background-image: url("/images/guitar.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
+#w a {
+  font-family: "Allerta Stencil", sans-serif;
 
-a {
-    font-family: 'Allerta Stencil', sans-serif;
-   
-    color: #000000;        
-}
-  
-a:hover{
-    text-decoration: none;
-    color: #000000;
+  color: #000000;
 }
 
-.navbar-brand{
-    font-size: 28px;
-    float: left;
-    text-align: center;
-    width: 100%;
-    color: #000000;
+a:hover {
+  text-decoration: none;
+  color: #000000;
 }
 
-.navbar{
-    background: #000000;
-    box-shadow: inset 0px -10px 20px rgba(122, 121, 121, 0.25);
-    min-height: 56%;
+.navbar-brand {
+  font-size: 28px;
+  float: left;
+  text-align: center;
+  width: 100%;
+  color: #000000;
 }
 
-#frontText{
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 28px;
-    text-align: center;
-    color: white;
-    letter-spacing: -0.02em;
-    padding-top: 60px;
-   
-    
-    
+.navbar {
+  background: #000000;
+  box-shadow: inset 0px -10px 20px rgba(122, 121, 121, 0.25);
+  min-height: 56%;
+}
+
+#frontText {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  letter-spacing: -0.02em;
+  padding-top: 60px;
 }
 /*Animação para o texto*/
 @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-12%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  0% {
+    transform: translateX(-12%);
   }
-
-.disclaimer{
-    animation: 1.5s ease-in 0s  slideInFromLeft;
+  100% {
+    transform: translateX(0);
+  }
 }
 
-
+.disclaimer {
+  animation: 1.5s ease-in 0s slideInFromLeft;
+}
 
 .login-form {
-    
-    min-width: auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    max-width: 394px;
-    height: 100%;
-    margin: 50px auto;
-    top: 10px;
+  min-width: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  max-width: 394px;
+  height: 100%;
+  margin: 50px auto;
+  top: 10px;
 }
 .login-form form {
-    margin-bottom: 125px;
-    background: #EAEAEA;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
-    padding: 30px;
-    border-radius: 20px;
-    
+  margin-bottom: 125px;
+  background: #eaeaea;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 20px;
 }
 
-.btn-primary, .btn, .btn-block {
-    background: #87CE6E;
-    border-radius: 9px;
-    border-style: none;
-    font-weight: bold;
-   
+.btn-primary,
+.btn,
+.btn-block {
+  background: #87ce6e;
+  border-radius: 9px;
+  border-style: none;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
-    background: #6daa56;
-    border-radius: 9px;
+  background: #6daa56;
+  border-radius: 9px;
 }
 
-footer, .page-footer{
-    background: #0E0E0E;
-    width: 100%;
-    height: 8%;
-    
+#footer {
+  background-color: #0e0e0e;
+  width: 100%;
+  height: 8%;
 }
 
-
-
-a, .font-small {
-    color: rgb(214, 214, 214);
+a,
+.font-small {
+  color: rgb(214, 214, 214);
+}
+#w {
+  margin-bottom: 100px;
 }
 
-footer{
-    position: fixed;
-    bottom: 0px;
+footer {
+  position: fixed;
+  bottom: 0px;
 }
-
-
-

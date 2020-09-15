@@ -11,6 +11,7 @@ body {
   }
 
 
+
 #bkg-prof{
     width: 100%;
     height: 225px;
@@ -25,20 +26,52 @@ body {
 
 #prof-picture{
     position: absolute;
-    top: 60%;
+    top: 63%;
     left: 5%;
 }
 
+#user-info{
+    width: 45%;
+    text-align: center;
+    left: 35%;
+    
+}
+
+#user-info, h5 {
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 3px;
+    
+}
+
+#user-info, label{
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    display: inline;
+}
 
 
 @media screen and (max-width: 988px){
-    .col-lg{
-        
-
+    #bkg-prof{
+        margin-left: -25px;
+        margin-top: 10px;
+        width: 105%;
+        height: 195px;
+    }
+    #user-photo{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 7px solid #fff;
+    }
+    #capa {
+        margin-right: -60px;
     }
 
-    #bkg-prof{
-        width: 100%;
-        height: 205px;
+    #prof-picture{
+        position: absolute;
+        top: 66%;
+        left: 2%;
     }
   }
