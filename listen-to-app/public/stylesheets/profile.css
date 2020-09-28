@@ -26,8 +26,21 @@ body {
 
 #prof-picture{
     position: absolute;
-    top: 63%;
+    top: 55%;
     left: 5%;
+}
+
+#num-followers{
+    position: relative;
+    left: 25%;
+    width: 55px;
+}
+
+#time {
+    position: absolute;
+    right: 5%;
+    top: -30%;
+    width: 95px;
 }
 
 #user-info{
@@ -44,7 +57,7 @@ body {
     
 }
 
-#user-info, label{
+#user-info label{
     text-align: center;
     color: black;
     font-weight: normal;
@@ -71,7 +84,20 @@ body {
 
     #prof-picture{
         position: absolute;
-        top: 66%;
+        top: 49%;
         left: 2%;
+    }
+    
+    #num-followers{
+    position: relative;
+    left: 25%;
+    width: 55px;
+    }
+
+    #time {
+    position: absolute;
+    right: -35%;
+    top: -24%;
+    width: 84px;
     }
   }
