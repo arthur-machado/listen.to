@@ -31,30 +31,30 @@ body {
 }
 
 #num-followers{
-    position: relative;
+    position: absolute;
     left: 25%;
     width: 55px;
+    padding-right: -3%;
+    top: 5%;
 }
 
 #time {
     position: absolute;
-    right: 5%;
-    top: -30%;
+    right: 22%;
     width: 95px;
 }
 
 #user-info{
     width: 45%;
     text-align: center;
-    left: 35%;
-    
+    left: 49%;
+    position: relative;
 }
 
 #user-info, h5 {
     position: relative;
     font-weight: bold;
     margin-bottom: 3px;
-    
 }
 
 #user-info label{
@@ -64,6 +64,21 @@ body {
     display: inline;
 }
 
+#user-nicks{
+    position: relative;
+    left: 23%;
+    width: 35%;
+    top: -5px;
+    padding-right: 10%;
+}
+
+#name{
+    font-size: 36px;
+}
+
+#nick{
+    font-size: 18px;
+}
 
 @media screen and (max-width: 988px){
     #bkg-prof{
@@ -84,21 +99,37 @@ body {
 
     #prof-picture{
         position: absolute;
-        top: 49%;
+        top: 43%;
         left: 2%;
     }
     
     #num-followers{
     position: relative;
-    left: 25%;
+    left: 1%;
     width: 55px;
     }
 
     #time {
     position: absolute;
-    right: -35%;
+    right: -32%;
     top: -24%;
-    width: 87px;
+    width: 95px;
     padding-left: 6%;
+    }
+
+    #user-nicks{
+        position: relative;
+        width: 65%;
+        left: -14px;
+        top: 18px;
+        padding-right: 10%;
+    }
+    
+    #name{
+        font-size: 30px;
+    }
+    
+    #nick{
+        font-size: 15px;
     }
   }
