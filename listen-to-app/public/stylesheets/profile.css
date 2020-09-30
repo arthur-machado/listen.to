@@ -40,14 +40,14 @@ body {
 
 #time {
     position: absolute;
-    right: 22%;
+    right: 25%;
     width: 95px;
 }
 
 #user-info{
     width: 45%;
     text-align: center;
-    left: 49%;
+    left: 39%;
     position: relative;
 }
 
@@ -68,7 +68,7 @@ body {
     position: relative;
     left: 23%;
     width: 35%;
-    top: -5px;
+    top: -40px;
     padding-right: 10%;
 }
 
@@ -78,6 +78,28 @@ body {
 
 #nick{
     font-size: 18px;
+}
+
+.btn-primary,
+.btn,
+.btn-block {
+  background: #87ce6e;
+  border-radius: 9px;
+  border-style: none;
+  width: max-content;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: #6daa56;
+  border-radius: 9px;
+}
+
+#set{
+    position: relative;
+    left: 70%;
+    padding-left: 63px;
+    top: 15px;
 }
 
 @media screen and (max-width: 988px){
@@ -102,17 +124,25 @@ body {
         top: 43%;
         left: 2%;
     }
+
+    #user-info{
+        width: 45%;
+        text-align: center;
+        left: 48%;
+        position: relative;
+    }
     
     #num-followers{
     position: relative;
     left: 1%;
+    top: 8px;
     width: 55px;
     }
 
     #time {
     position: absolute;
     right: -32%;
-    top: -24%;
+    top: -4px;
     width: 95px;
     padding-left: 6%;
     }
@@ -121,7 +151,7 @@ body {
         position: relative;
         width: 65%;
         left: -14px;
-        top: 18px;
+        top: -5px;
         padding-right: 10%;
     }
     
@@ -131,5 +161,27 @@ body {
     
     #nick{
         font-size: 15px;
+    }
+
+    .btn-primary,
+    .btn,
+    .btn-block {
+    background: #87ce6e;
+    border-radius: 9px;
+    border-style: none;
+    width: max-content;
+    font-weight: bold;
+    }
+
+    .btn-primary:hover {
+    background: #6daa56;
+    border-radius: 9px;
+    }
+
+    #set{
+        position: relative;
+        left: -22%;
+        padding-left: 56px;
+        top: 56px;
     }
   }
